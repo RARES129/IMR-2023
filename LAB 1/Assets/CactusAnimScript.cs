@@ -2,27 +2,27 @@ using UnityEngine;
 
 public class Fight : MonoBehaviour
 {
-    private Animator _mAnimator;
-    public Transform otherCactus;
+    private Animator CactusAnimator;
+    public Transform Cactus2;
 
     // Start is called before the first frame update
     void Start()
     {
-        _mAnimator = GetComponent<Animator>();
+        CactusAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (_mAnimator != null)
+        if (CactusAnimator != null)
         {
-            if (Vector3.Distance(transform.position, otherCactus.position) <= 0.4f)
+            if (Vector3.Distance(transform.position, Cactus2.position) <= 0.4f)
             {
-                _mAnimator.SetBool("isAttacking", true);
+                CactusAnimator.SetBool("isAttacking", true);
             }
             else
             {
-                _mAnimator.SetBool("isAttacking", false);
+                CactusAnimator.SetBool("isAttacking", false);
             }
         }
     }
