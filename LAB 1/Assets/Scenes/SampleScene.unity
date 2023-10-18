@@ -348,7 +348,6 @@ GameObject:
   - component: {fileID: 552921313}
   - component: {fileID: 552921312}
   - component: {fileID: 552921315}
-  - component: {fileID: 552921316}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -426,7 +425,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 552921316}
+  mPreview: {fileID: 552921315}
 --- !u!4 &552921314
 Transform:
   m_ObjectHideFlags: 0
@@ -444,19 +443,6 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &552921315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 552921310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c7b0885465fb974490698847cc59998, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  otherCactus: {fileID: 0}
---- !u!114 &552921316
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -920,7 +906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c7b0885465fb974490698847cc59998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  otherCactus: {fileID: 131467051}
+  Cactus2: {fileID: 131467051}
 --- !u!1 &1921110275 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100052, guid: 68d8f3eae01c5744b996aab3358db0a0, type: 3}
@@ -938,7 +924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c7b0885465fb974490698847cc59998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  otherCactus: {fileID: 1837124036}
+  Cactus2: {fileID: 1837124036}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
