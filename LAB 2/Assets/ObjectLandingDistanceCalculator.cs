@@ -23,7 +23,6 @@ public class ObjectLandingDistanceCalculator : MonoBehaviour
     private void OnSelectExit(SelectExitEventArgs args)
     {
         float distance = Vector3.Distance(initialPosition, transform.position);
-        //Debug.Log("Distanta de la pozitia initiala: " + distance.ToString("F2") + " prajini");
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -32,7 +31,7 @@ public class ObjectLandingDistanceCalculator : MonoBehaviour
             {
                 landingPosition = transform.position;
                 float distance = Vector3.Distance(initialPosition, landingPosition);
-                Debug.Log("Distanta de la pozitia initiala: " + distance.ToString("F2") + " prajini");
+                Debug.Log("Distanta fata de pozitia initiala: " + distance.ToString("F2") + " unitati de masura preferate");
             }
     }
 
